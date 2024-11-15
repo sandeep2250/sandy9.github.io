@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Bank App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Bank</h1>
+        <div class="form-group">
+            <input type="text" id="accountName" placeholder="Account Name" />
+            <button onclick="createAccount()">Create Account</button>
+        </div>
+        <div class="form-group">
+            <input type="number" id="depositAmount" placeholder="Deposit Amount" />
+            <button onclick="deposit()">Deposit</button>
+        </div>
+        <div class="form-group">
+            <button onclick="checkBalance()">Check Balance</button>
+        </div>
+        <div id="message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
